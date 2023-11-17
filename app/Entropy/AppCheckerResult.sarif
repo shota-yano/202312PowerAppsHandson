@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrOrder.txtSearch_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScrOrder.txtSearchOrderProduct.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrOrder.txtSearch_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScrOrder.txtSearchOrderProduct.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScrOrder",
-                "type": "ScrOrder.txtSearch_1"
+                "type": "ScrOrder.txtSearchOrderProduct"
               }
             }
           ],

@@ -8,7 +8,7 @@ ScrOrder As screen:
     "Gallery1_1 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =985
-        Items: =Filter(発注テーブル,StartsWith(品目,txtSearch_1.Text))
+        Items: =Filter(発注テーブル,StartsWith(品目,txtSearchOrderProduct.Text))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -191,7 +191,7 @@ ScrOrder As screen:
         Width: =80
         ZIndex: =3
 
-    txtSearch_1 As text:
+    txtSearchOrderProduct As text:
         BorderThickness: =1
         Default: =""
         Height: =70
