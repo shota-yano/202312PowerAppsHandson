@@ -132,6 +132,7 @@
   "ScreenOrder": [
     "ScrMenu",
     "ScrInventory",
-    "ScrOrder"
+    "ScrOrder",
+    "ScrCreateOrder"
   ]
 }
