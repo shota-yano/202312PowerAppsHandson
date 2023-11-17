@@ -1,0 +1,52 @@
+ScrMenu As screen:
+
+    Rectangle1 As rectangle:
+        Height: =80
+        Width: =640
+        ZIndex: =1
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Size: =30
+        Text: ="テストアプリ"
+        Width: =267
+        X: =80
+        ZIndex: =2
+
+    Icon1 As icon.BackArrow:
+        Color: =RGBA(149, 149, 149, 1)
+        DisplayMode: =DisplayMode.View
+        Height: =80
+        Icon: =Icon.BackArrow
+        PaddingBottom: =5
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =80
+        ZIndex: =3
+
+    Label2 As label:
+        Align: =Align.Center
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =138
+        OnSelect: =Navigate(ScrInventory,ScreenTransition.Cover)
+        Size: =30
+        Text: ="在庫管理"
+        Width: =560
+        X: =40
+        Y: =182
+        ZIndex: =4
+
+    Label2_1 As label:
+        Align: =Align.Center
+        Fill: =RGBA(153, 207, 236, 1)
+        Height: =138
+        OnSelect: =Navigate(ScrInventory,ScreenTransition.Cover)
+        Size: =30
+        Text: ="仕入れ発注情報"
+        Width: =560
+        X: =40
+        Y: =419
+        ZIndex: =5
+

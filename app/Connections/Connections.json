@@ -1,0 +1,32 @@
+{
+  "83e5044b-6eaf-4211-b83f-e2a66e6e0f89": {
+    "connectionRef": {
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1658/1.0.1658.3452/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness"
+    },
+    "datasets": {
+      "me,b%2521C8RdL1NHzEOtvOrDKsuB2h6gY0hXMG1EpEgwHxdWy-TPNE9deWYXRbQVtwOTldjI,01QJS7WH2IPH6J4IYKXFA3YR7GWXXTU2U2": {
+        "dataSources": {
+          "在庫テーブル": {
+            "tableName": "{D1C10699-D04B-4750-9506-52A39666F082}"
+          },
+          "発注テーブル": {
+            "tableName": "{FDF561A0-92FC-4748-A038-798A57189EB4}"
+          },
+          "販売履歴": {
+            "tableName": "{8591F637-181B-4FEB-8B0D-F3B8175E67F3}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "在庫テーブル",
+      "発注テーブル",
+      "販売履歴"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "83e5044b-6eaf-4211-b83f-e2a66e6e0f89"
+  }
+}
