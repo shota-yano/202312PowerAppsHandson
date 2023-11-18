@@ -30,6 +30,7 @@ ScrCreateOrder As screen:
         DataSource: =発注テーブル
         DefaultMode: =FormMode.New
         Height: =1056
+        OnSuccess: =Back(ScreenTransition.UnCoverRight)
         Width: =640
         Y: =80
         ZIndex: =4
