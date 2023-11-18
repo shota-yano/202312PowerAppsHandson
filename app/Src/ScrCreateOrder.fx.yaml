@@ -26,7 +26,7 @@ ScrCreateOrder As screen:
         Width: =80
         ZIndex: =3
 
-    Form2 As form:
+    FormCreateOrder As form:
         DataSource: =発注テーブル
         DefaultMode: =FormMode.New
         Height: =1056
@@ -189,7 +189,7 @@ ScrCreateOrder As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             MaxLength: =DataSourceInfo([@発注テーブル], DataSourceInfo.MaxLength, "発注数")
-            Required: =false
+            Required: =true
             Update: =DataCardValue6.Text
             Width: =640
             X: =0
@@ -256,7 +256,7 @@ ScrCreateOrder As screen:
         発注日_DataCard1 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="発注日"
-            Default: =ThisItem.発注日
+            Default: =Now()   
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@発注テーブル],DataSourceInfo.DisplayName,"発注日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -308,6 +308,7 @@ ScrCreateOrder As screen:
                 PaddingTop: =5
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =DateValue2.Width / 2 - 10
                 X: =DateValue2.X + DateValue2.Width + 10
                 Y: =DateValue2.Y
@@ -324,6 +325,7 @@ ScrCreateOrder As screen:
                 Size: =21
                 Text: |-
                     =":"
+                Visible: =false
                 Width: =10
                 Wrap: =false
                 X: =HourValue2.X + HourValue2.Width
@@ -342,6 +344,7 @@ ScrCreateOrder As screen:
                 PaddingTop: =5
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =HourValue2.Width
                 X: =HourValue2.X + HourValue2.Width + Separator7.Width
                 Y: =HourValue2.Y
@@ -377,7 +380,7 @@ ScrCreateOrder As screen:
         納入希望日_DataCard1 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="納入希望日"
-            Default: =ThisItem.納入希望日
+            Default: =Now()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@発注テーブル],DataSourceInfo.DisplayName,"納入希望日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -429,6 +432,7 @@ ScrCreateOrder As screen:
                 PaddingTop: =5
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =DateValue3.Width / 2 - 10
                 X: =DateValue3.X + DateValue3.Width + 10
                 Y: =DateValue3.Y
@@ -445,6 +449,7 @@ ScrCreateOrder As screen:
                 Size: =21
                 Text: |-
                     =":"
+                Visible: =false
                 Width: =10
                 Wrap: =false
                 X: =HourValue3.X + HourValue3.Width
@@ -463,6 +468,7 @@ ScrCreateOrder As screen:
                 PaddingTop: =5
                 Size: =21
                 Tooltip: =Parent.DisplayName
+                Visible: =false
                 Width: =HourValue3.Width
                 X: =HourValue3.X + HourValue3.Width + Separator8.Width
                 Y: =HourValue3.Y
@@ -524,7 +530,7 @@ ScrCreateOrder As screen:
 
             DataCardValue7 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
+                Default: =User().FullName
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
@@ -571,7 +577,7 @@ ScrCreateOrder As screen:
         最終更新日_DataCard2 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="最終更新日"
-            Default: =ThisItem.最終更新日
+            Default: =Now()
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@発注テーブル],DataSourceInfo.DisplayName,"最終更新日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -688,4 +694,17 @@ ScrCreateOrder As screen:
                 Wrap: =false
                 Y: =DataCardKey11.Y
                 ZIndex: =7
+
+    Icon4 As icon.Send:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Icon: =Icon.Send
+        OnSelect: =SubmitForm(FormCreateOrder)
+        PaddingBottom: =5
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =80
+        X: =560
+        ZIndex: =5
 
