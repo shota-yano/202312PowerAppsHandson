@@ -1,4 +1,5 @@
 ScrCreateOrder As screen:
+    OnVisible: =ResetForm(FormCreateOrder)
 
     Rectangle1_3 As rectangle:
         Height: =80

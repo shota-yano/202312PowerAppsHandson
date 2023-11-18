@@ -42,7 +42,7 @@ ScrMenu As screen:
         Align: =Align.Center
         Fill: =RGBA(153, 207, 236, 1)
         Height: =138
-        OnSelect: =Navigate(ScrInventory,ScreenTransition.Cover)
+        OnSelect: =Navigate(ScrOrder,ScreenTransition.Cover)
         Size: =30
         Text: ="仕入れ発注情報"
         Width: =560
