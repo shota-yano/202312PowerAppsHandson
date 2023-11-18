@@ -93,7 +93,7 @@
       "useguiddatatypes": true,
       "usenonblockingonstartrule": true,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -112,7 +112,7 @@
     "Id": "832a258b-3407-4495-92b9-8931b065211a",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "202312ハンズオンモック",
     "OriginatingVersion": "1.335",
     "ParserErrorCount": 0,

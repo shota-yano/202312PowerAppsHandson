@@ -212,3 +212,15 @@ ScrOrder As screen:
         Y: =83
         ZIndex: =5
 
+    Icon3 As icon.Add:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =80
+        Icon: =Icon.Add
+        PaddingBottom: =5
+        PaddingLeft: =5
+        PaddingRight: =5
+        PaddingTop: =5
+        Width: =80
+        X: =560
+        ZIndex: =6
+
