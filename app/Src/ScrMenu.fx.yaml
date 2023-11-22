@@ -44,7 +44,7 @@ ScrMenu As screen:
         Height: =138
         OnSelect: =Navigate(ScrOrder,ScreenTransition.Cover)
         Size: =30
-        Text: ="仕入れ発注情報"
+        Text: ="仕入れ情報"
         Width: =560
         X: =40
         Y: =419
