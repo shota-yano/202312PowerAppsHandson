@@ -116,7 +116,7 @@ ScrStore As screen:
         発注日_DataCard3 As typedDataCard.textualViewCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="発注日"
-            Default: =ThisItem.発注日
+            Default: =Text(ThisItem.発注日,"yyyy/mm/dd")
             DisplayMode: =DisplayMode.View
             DisplayName: =DataSourceInfo([@発注テーブル],DataSourceInfo.DisplayName,"発注日")
             Fill: =RGBA(0, 0, 0, 0)
@@ -145,7 +145,8 @@ ScrStore As screen:
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
-                Text: =Parent.Default
+                Text: |
+                    =    Parent.Default 
                 Width: =Parent.Width - 60
                 X: =30
                 Y: =DataCardKey16.Y + DataCardKey16.Height + 5
