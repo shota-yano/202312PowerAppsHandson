@@ -1,4 +1,4 @@
-ScrCreateOrder As screen:
+ScrCreateStoreOrder As screen:
     OnVisible: =ResetForm(FormCreateOrder)
 
     Rectangle1_3 As rectangle:

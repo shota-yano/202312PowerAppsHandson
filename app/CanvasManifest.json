@@ -132,10 +132,11 @@
   "ScreenOrder": [
     "ScrMenu",
     "ScrInventory",
-    "ScrOrder",
-    "ScrCreateOrder",
+    "ScrStoreOrderList",
+    "ScrCreateStoreOrder",
     "ScrStore",
-    "ScrShoOrder",
+    "ScrShipOrderList",
+    "ScrCreateShipOrder",
     "ScrShip"
   ]
 }

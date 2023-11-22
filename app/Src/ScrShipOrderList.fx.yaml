@@ -1,4 +1,4 @@
-ScrShoOrder As screen:
+ScrShipOrderList As screen:
 
     Rectangle1_5 As rectangle:
         Height: =80
@@ -200,7 +200,7 @@ ScrShoOrder As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =80
         Icon: =Icon.Add
-        OnSelect: =Navigate(ScrCreateOrder,ScreenTransition.Cover)
+        OnSelect: =Navigate(ScrCreateShipOrder,ScreenTransition.Cover)
         PaddingBottom: =5
         PaddingLeft: =5
         PaddingRight: =5
