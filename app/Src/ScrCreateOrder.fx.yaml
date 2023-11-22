@@ -382,7 +382,7 @@ ScrCreateOrder As screen:
         納入希望日_DataCard1 As typedDataCard.dateTimeEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="納入希望日"
-            Default: =Now()
+            Default: =Now()+1
             DisplayMode: =Parent.DisplayMode
             DisplayName: =DataSourceInfo([@発注テーブル],DataSourceInfo.DisplayName,"納入希望日")
             Fill: =RGBA(0, 0, 0, 0)
