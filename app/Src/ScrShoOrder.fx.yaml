@@ -8,10 +8,10 @@ ScrShoOrder As screen:
     "GalleryShpOrderList As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =985
-        Items: =Filter(発注テーブル,StartsWith(品目,txtSearchOrderProduct_1.Text))
+        Items: =Filter(出荷テーブル,StartsWith(品目,txtSearchOrderProduct_1.Text))
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(ScrStore,ScreenTransition.Cover)
+        OnSelect: =Navigate(ScrShip,ScreenTransition.Cover)
         TemplatePadding: =0
         TemplateSize: =223
         Y: =150
@@ -40,7 +40,7 @@ ScrShoOrder As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =25
-            Text: =ThisItem.発注数
+            Text: =ThisItem.出荷指示数
             Width: =163
             X: =148
             Y: =50
@@ -112,8 +112,8 @@ ScrShoOrder As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =25
-            Text: ="入荷数："
-            Width: =145
+            Text: ="出荷済数："
+            Width: =180
             X: =4
             Y: =160
             ZIndex: =10
@@ -148,9 +148,9 @@ ScrShoOrder As screen:
             Height: =70
             OnSelect: =Select(Parent)
             Size: =25
-            Text: =ThisItem.入荷数
-            Width: =318
-            X: =148
+            Text: =ThisItem.出荷済数
+            Width: =281
+            X: =184
             Y: =150
             ZIndex: =13
 
@@ -158,7 +158,7 @@ ScrShoOrder As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =80
         Size: =30
-        Text: ="仕入れ情報"
+        Text: ="出荷情報"
         Width: =367
         X: =80
         ZIndex: =2
