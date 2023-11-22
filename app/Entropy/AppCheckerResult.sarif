@@ -1164,36 +1164,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStore.FormStore.入荷日_DataCard1.DataCardValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.入荷日_DataCard1.DataCardValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.入荷日_DataCard1.DataCardValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ScrStore.FormStore.入荷数_DataCard1.DataCardValue2.AccessibleLabel"
                 }
               ],
@@ -1224,19 +1194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注数_DataCard1_1.DataCardValue6_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新者_DataCard1.DataCardValue15.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注数_DataCard1_1.DataCardValue6_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新者_DataCard1.DataCardValue15.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScrStore",
-                "type": "ScrStore.FormStore.発注数_DataCard1_1.DataCardValue6_1"
+                "type": "ScrStore.FormStore.最終更新者_DataCard1.DataCardValue15"
               }
             }
           ],
@@ -1254,19 +1224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注日_DataCard1_1.DateValue2_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard1.DateValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注日_DataCard1_1.DateValue2_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard1.DateValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScrStore",
-                "type": "ScrStore.FormStore.発注日_DataCard1_1.DateValue2_1"
+                "type": "ScrStore.FormStore.最終更新日_DataCard1.DateValue6"
               }
             }
           ],
@@ -1284,19 +1254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注日_DataCard1_1.HourValue2_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard1.HourValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注日_DataCard1_1.HourValue2_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard1.HourValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScrStore",
-                "type": "ScrStore.FormStore.発注日_DataCard1_1.HourValue2_1"
+                "type": "ScrStore.FormStore.最終更新日_DataCard1.HourValue6"
               }
             }
           ],
@@ -1314,229 +1284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注日_DataCard1_1.MinuteValue2_1.AccessibleLabel"
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard1.MinuteValue6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.発注日_DataCard1_1.MinuteValue2_1.AccessibleLabel",
+                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard1.MinuteValue6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "ScrStore",
-                "type": "ScrStore.FormStore.発注日_DataCard1_1.MinuteValue2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.納入希望日_DataCard1_1.DateValue3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.納入希望日_DataCard1_1.DateValue3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.納入希望日_DataCard1_1.DateValue3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.納入希望日_DataCard1_1.HourValue3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.納入希望日_DataCard1_1.HourValue3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.納入希望日_DataCard1_1.HourValue3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.納入希望日_DataCard1_1.MinuteValue3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.納入希望日_DataCard1_1.MinuteValue3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.納入希望日_DataCard1_1.MinuteValue3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新者_DataCard2_1.DataCardValue7_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新者_DataCard2_1.DataCardValue7_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.最終更新者_DataCard2_1.DataCardValue7_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard2_1.DateValue4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard2_1.DateValue4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.最終更新日_DataCard2_1.DateValue4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard2_1.HourValue4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard2_1.HourValue4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.最終更新日_DataCard2_1.HourValue4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard2_1.MinuteValue4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ScrStore.FormStore.最終更新日_DataCard2_1.MinuteValue4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ScrStore",
-                "type": "ScrStore.FormStore.最終更新日_DataCard2_1.MinuteValue4_1"
+                "type": "ScrStore.FormStore.最終更新日_DataCard1.MinuteValue6"
               }
             }
           ],

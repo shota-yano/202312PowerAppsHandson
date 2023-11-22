@@ -55,7 +55,7 @@ ScrOrder As screen:
             PaddingRight: =0
             PaddingTop: =0
             Size: =25
-            Text: =ThisItem.入荷日
+            Text: =Text(ThisItem.入荷日)
             Width: =312
             X: =145
             Y: =170
