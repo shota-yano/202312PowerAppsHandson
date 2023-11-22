@@ -135,7 +135,7 @@
     "ScrOrder",
     "ScrCreateOrder",
     "ScrStore",
-    "ScrShip",
-    "ScrShoOrder"
+    "ScrShoOrder",
+    "ScrShip"
   ]
 }
