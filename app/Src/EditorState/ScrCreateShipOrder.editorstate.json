@@ -10104,7 +10104,7 @@
       "MetaDataIDKey": "",
       "Name": "最終更新者_DataCard5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10257,7 +10257,7 @@
       "MetaDataIDKey": "",
       "Name": "最終更新日_DataCard5",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10413,7 +10413,7 @@
       "MetaDataIDKey": "",
       "Name": "出荷指示数_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10566,7 +10566,7 @@
       "MetaDataIDKey": "",
       "Name": "登録日_DataCard3",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10722,7 +10722,7 @@
       "MetaDataIDKey": "",
       "Name": "品目_DataCard8",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

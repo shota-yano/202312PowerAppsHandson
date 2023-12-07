@@ -10,7 +10,7 @@ ScrCreateStoreOrder As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =80
         Size: =30
-        Text: ="新規発注情報"
+        Text: ="新規入荷情報"
         Width: =367
         X: =80
         ZIndex: =2

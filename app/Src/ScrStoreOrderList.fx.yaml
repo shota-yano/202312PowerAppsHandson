@@ -158,7 +158,7 @@ ScrStoreOrderList As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =80
         Size: =30
-        Text: ="仕入れ情報"
+        Text: ="入荷情報"
         Width: =367
         X: =80
         ZIndex: =2
