@@ -9,8 +9,8 @@ ScrMenu As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =80
         Size: =30
-        Text: ="テストアプリ"
-        Width: =267
+        Text: ="在庫管理アプリ"
+        Width: =333
         X: =80
         ZIndex: =2
 
